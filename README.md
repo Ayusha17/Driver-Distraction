@@ -15,12 +15,19 @@ open their browser on 127.0.0.1:5000
   git clone https://github.com/Ayusha17/Driver-Distraction.git
 ```  
 
-2. Head over to local directory where the project is located on cmd
+2. Install requirements.txt
+
+```javascript
+  pip install -r requirements.txt
+```
+
+3. Head over to local directory where the project is located on cmd
+
 ```javascript
   cd directory
 ```
 
-3. Run the command: flask run or python app.py
+4. Run the command: flask run or python app.py
 
 ```javascript
   flask run 
@@ -28,5 +35,5 @@ open their browser on 127.0.0.1:5000
   python app.py
 ```
 
-4. Open your web browser on 127.0.0.1:5000
+5. Open your web browser on 127.0.0.1:5000
  
