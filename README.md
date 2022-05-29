@@ -1,7 +1,6 @@
-Instructions to run the flask app
-install requirements.txt
-the navigate to project directory on cmd and flask run or python app.py
-open their browser on 127.0.0.1:5000
+# Drive Cam : Web App to detect driver negligence
+driver id: `A101`
+driver password: `e123` (optional to use)
 
 ### 🚩 CAUTION 
 - Make sure your system is installed with python 3. Also, keep your system volume low as the alarm starts buzzing as soon as the camera starts.
