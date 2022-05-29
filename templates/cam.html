@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Driver Distraction Detection</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://kit.fontawesome.com/74dfb60960.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area">
+        <h3>Drive <span>Cam</span></h3>
+      </div>
+      <div class="right_area">
+        <a href="/" class="back_btn">Back</a>
+      </div>
+    </header>
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <center>
+        <img src="static/a.jpg" class="profile_image" alt="">
+      </center>
+    </center>
+    <a href="/"><i class="fa-solid fa-house"></i><span>Home</span></a>
+    <a href="{{url_for('cam') }}"><i class="fa-solid fa-video"></i><span>Start Feed</span></a>
+    <a href="{{url_for('example') }}"><i class="fa-solid fa-circle-info"></i><span>Show Example</span></a>
+    <a href="{{url_for('dash') }}"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+    <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+    <a href="#"><i class="fa fa-phone-square"></i><span>Contact</span></a>
+    </div>
+    <!--sidebar end-->
+
+    <div class="content">
+        <div class="box-feed">
+            <img src="{{ url_for('video_feed') }}" width="100%">
+        </div>
+
+    </div>
+
+  </body>
+</html>
+
+
+
+
+
+      
