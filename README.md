@@ -35,4 +35,10 @@ driver password: `e123` (optional to use)
 ```
 
 5. Open your web browser on 127.0.0.1:5000
+
+<a id="features"></a>
+## 🚀 More Documentation
+Provided in the pdf document here: https://drive.google.com/file/d/1iEPRqWbAQ3beTFOHWIzxUU2MhMb0_v1x/view?usp=sharing
+Contains Roadmap, Future scope, challenges, accuracy assessment etc.
+
  
